@@ -4,15 +4,21 @@
              x:Class="ProgresoN2Ayala.MainPage">
 
     <StackLayout Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-        <Label Text="Bienvenido " 
-             FontAttributes="Bold" 
-             FontSize="Large" 
-             HorizontalOptions="Center" />
+        <Label Text="Bienvenido a la aplicación de Recargas" 
+               FontAttributes="Bold" 
+               FontSize="Large" 
+               HorizontalOptions="Center" />
+        <Image 
+            Source="ejemplo.jpg"
+            WidthRequest="150"
+            HeightRequest="150"
+            HorizontalOptions="Center" />
         <Button 
             x:Name="IrAChistes"
             Text="Ir a Chiste"
             Clicked="IrAChistes_Clicked"
             />
+
         <Button
             x:Name="IrAAbout"
             Text="Ir a About"
