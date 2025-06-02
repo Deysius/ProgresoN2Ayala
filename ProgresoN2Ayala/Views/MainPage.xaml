@@ -6,10 +6,12 @@
                  Spacing="25"
                  VerticalOptions="CenterAndExpand"
                  HorizontalOptions="CenterAndExpand">
+
         <Label Text="Bienvenido a la aplicación de Josue Ayala"
                FontAttributes="Bold"
                FontSize="Large"
                HorizontalOptions="Center" />
+
         <Image Source="ejemplo.jpg"
                WidthRequest="150"
                HeightRequest="150"
