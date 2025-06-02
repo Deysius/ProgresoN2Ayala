@@ -22,7 +22,7 @@ public partial class Chistes : ContentPage
         }
         catch
         {
-            ChisteLabel.Text = "Error al cargar el chiste.";
+            ChisteLabel.Text = "Error al cargar el chiste";
         }
     }
 
