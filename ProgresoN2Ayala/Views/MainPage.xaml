@@ -2,29 +2,27 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProgresoN2Ayala.MainPage">
-
-    <StackLayout Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-        <Label Text="Bienvenido a la aplicación de Recargas" 
-               FontAttributes="Bold" 
-               FontSize="Large" 
+    <StackLayout Padding="20"
+                 Spacing="25"
+                 VerticalOptions="CenterAndExpand"
+                 HorizontalOptions="CenterAndExpand">
+        <Label Text="Bienvenido a la aplicación de Josue Ayala"
+               FontAttributes="Bold"
+               FontSize="Large"
                HorizontalOptions="Center" />
-        <Image 
-            Source="ejemplo.jpg"
-            WidthRequest="150"
-            HeightRequest="150"
-            HorizontalOptions="Center" />
-        <Button 
-            x:Name="IrAChistes"
-            Text="Ir a Chiste"
-            Clicked="IrAChistes_Clicked"
-            />
-
-        <Button
-            x:Name="IrAAbout"
-            Text="Ir a About"
-            Clicked="IrAAbout_Clicked" 
-            />
-
+        <Image Source="ejemplo.jpg"
+               WidthRequest="150"
+               HeightRequest="150"
+               HorizontalOptions="Center" />
+        <Button x:Name="IrAChistes"
+                Text="Ir a Chiste"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                Clicked="IrAChistes_Clicked" />
+        <Button x:Name="IrAAbout"
+                Text="Ir a About"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                Clicked="IrAAbout_Clicked" />
     </StackLayout>
-
 </ContentPage>

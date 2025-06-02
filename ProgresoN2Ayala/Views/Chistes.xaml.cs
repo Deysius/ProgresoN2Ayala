@@ -20,12 +20,12 @@ public partial class Chistes : ContentPage
             var chiste = await _chistesRepository.GetChisteAsync();
             ChisteLabel.Text = chiste;
         }
-        catch
+        catch (Exception ex)
         {
-            ChisteLabel.Text = "Error al cargar el chiste";
+            ChisteLabel.Text = $"Error al cargar el chiste: {ex.Message}";
         }
     }
-
+        
     private void OnOtroChisteClicked(object sender, EventArgs e)
     {
         CargarChiste();

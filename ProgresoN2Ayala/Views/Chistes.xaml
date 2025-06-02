@@ -3,18 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProgresoN2Ayala.Views.Chistes"
              Title="Chistes">
-    <AbsoluteLayout>
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
         <Label x:Name="ChisteLabel"
-               Text="Cargando chiste..."
+               Text="Texto inicial"
                FontSize="20"
                HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center"
-               AbsoluteLayout.LayoutBounds="0.5,0.4,0.9,-1"
-               AbsoluteLayout.LayoutFlags="All" />
+               VerticalTextAlignment="Center" />
         <Button Text="Otro chiste"
-                Clicked="OnOtroChisteClicked"
-                AbsoluteLayout.LayoutBounds="0.5,1,0.5,50"
-                AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" />
-
-    </AbsoluteLayout>
+                Clicked="OnOtroChisteClicked" />
+    </StackLayout>
 </ContentPage>
